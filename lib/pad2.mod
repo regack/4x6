@@ -1,10 +1,11 @@
-PCBNEW-LibModule-V1  4/29/2013 1:21:13 PM
+PCBNEW-LibModule-V1  9/17/2013 4:07:07 PM
 # encoding utf-8
 Units mm
 $INDEX
 Pad
 Pad-Gnd
 Pad_50mil
+Pad_Drl
 $EndINDEX
 $MODULE Pad
 Po 0 0 0 15 514C8523 00000000 ~~
@@ -54,4 +55,20 @@ Ne 12 "/VIN"
 Po 0 0
 $EndPAD
 $EndMODULE Pad_50mil
+$MODULE Pad_Drl
+Po 0 0 0 15 5238B647 00000000 ~~
+Li Pad_Drl
+Sc 0
+AR /4D1A1495
+Op 0 0 0
+T0 0 -2.159 0.9 0.9 900 0.225 N V 21 N "P?"
+T1 0 -5.588 0.9 0.9 900 0.225 N V 21 N "DRL"
+$PAD
+Sh "1" C 1 1 0 0 0
+Dr 1 0 0
+At STD N 00F0FFFF
+Ne 1 "/VIN"
+Po 0 0
+$EndPAD
+$EndMODULE Pad_Drl
 $EndLIBRARY

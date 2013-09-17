@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 9/17/2013 2:51:05 PM
+EESchema Schematic File Version 2  date 9/17/2013 3:48:13 PM
 LIBS:power
 LIBS:mx1a-simple
 LIBS:aker
@@ -1181,4 +1181,30 @@ Wire Wire Line
 Wire Wire Line
 	10250 4550 10100 4550
 Connection ~ 10850 4550
+$Comp
+L CONN_1 P204
+U 1 1 5238B3AB
+P 5900 2600
+F 0 "P204" H 5980 2600 40  0000 L CNN
+F 1 "GND" H 5900 2655 30  0001 C CNN
+F 2 "" H 5900 2600 60  0001 C CNN
+F 3 "" H 5900 2600 60  0001 C CNN
+	1    5900 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P205
+U 1 1 5238B3B1
+P 5900 2700
+F 0 "P205" H 5980 2700 40  0000 L CNN
+F 1 "GND" H 5900 2755 30  0001 C CNN
+F 2 "" H 5900 2700 60  0001 C CNN
+F 3 "" H 5900 2700 60  0001 C CNN
+	1    5900 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 2600 5650 2600
+Wire Wire Line
+	5650 2700 5750 2700
 $EndSCHEMATC
