@@ -1,8 +1,6 @@
-update=9/17/2013 2:48:14 PM
+update=9/17/2013 5:09:46 PM
 version=1
-last_client=pcbnew
-[general]
-version=1
+last_client=kicad
 [eeschema]
 version=1
 LibDir=lib
@@ -62,3 +60,5 @@ LibName14=lib/resistor
 LibName15=lib/SM0805
 LibName16=lib/TQFP44
 LibName17=lib/CHERRY_PCB_200H
+[general]
+version=1
