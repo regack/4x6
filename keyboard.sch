@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 9/17/2013 3:48:13 PM
+EESchema Schematic File Version 2  date 9/24/2013 11:49:25 AM
 LIBS:power
 LIBS:mx1a-simple
 LIBS:aker
@@ -6,7 +6,6 @@ LIBS:atmega32u4
 LIBS:dtsjw
 LIBS:oupiin_usb
 LIBS:device
-LIBS:conn
 LIBS:keyboard-cache
 EELAYER 27 0
 EELAYER END
