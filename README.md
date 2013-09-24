@@ -5,6 +5,13 @@
 
 Based on GH60 Rev B
 
+v0.5
+
+-Cleaned up silkscreen text and locations
+
+
+
+
 v0.4
 
 -Added additional 'breakaway' holes
