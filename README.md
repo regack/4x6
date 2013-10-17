@@ -5,6 +5,16 @@
 
 Based on GH60 Rev B
 
+
+v0.8
+-1.27mm headers on left-board edge for ROWS, COLUMNS, Vcc, GND and Fn/NumLock LED control line
+-silkscreen on back for headers
+-geekhack silkscreen
+-adjusted spacing of breakaway drill holes 
+*still need to fix pad interference of S5 and S21
+*might ditch mounting slot on left-edge of board
+
+
 v0.5
 
 -Cleaned up silkscreen text and locations

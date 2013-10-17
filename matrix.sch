@@ -1,11 +1,13 @@
-EESchema Schematic File Version 2  date 9/24/2013 11:49:26 AM
+EESchema Schematic File Version 2  date 10/17/2013 12:48:40 PM
 LIBS:power
 LIBS:mx1a-simple
 LIBS:aker
 LIBS:atmega32u4
 LIBS:dtsjw
-LIBS:oupiin_usb
 LIBS:device
+LIBS:conn
+LIBS:usb_ports
+LIBS:mechanical
 LIBS:keyboard-cache
 EELAYER 27 0
 EELAYER END
@@ -13,8 +15,8 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 2 2
 Title "4x6 keypad"
-Date "17 sep 2013"
-Rev ""
+Date "17 oct 2013"
+Rev "0.8"
 Comp "regack"
 Comment1 ""
 Comment2 ""
@@ -230,10 +232,10 @@ col3
 Text HLabel 5700 1400 1    60   3State ~ 0
 col4
 $Comp
-L VCC #PWR028
+L VCC #PWR030
 U 1 1 5043970C
 P 12550 3550
-F 0 "#PWR028" H 12550 3650 30  0001 C CNN
+F 0 "#PWR030" H 12550 3650 30  0001 C CNN
 F 1 "VCC" H 12550 3650 30  0000 C CNN
 F 2 "" H 12550 3550 60  0001 C CNN
 F 3 "" H 12550 3550 60  0001 C CNN
