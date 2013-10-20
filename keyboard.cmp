@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-02-13 BZR 3947)-testing date = 9/17/2013 3:39:05 PM
+Cmp-Mod V01 Created by CvPcb (2013-02-13 BZR 3947)-testing date = 10/20/2013 2:01:25 PM
 
 BeginCmp
 TimeStamp = /4E99B63E;
@@ -253,6 +253,41 @@ IdModule  = MX_LED;
 EndCmp
 
 BeginCmp
+TimeStamp = /5263DA9E;
+Reference = H1;
+ValeurCmp = HOLE;
+IdModule  = Mechanical_Slotted_Hole;
+EndCmp
+
+BeginCmp
+TimeStamp = /52602196;
+Reference = H2;
+ValeurCmp = HOLE;
+IdModule  = Mechanical_Slotted_Hole;
+EndCmp
+
+BeginCmp
+TimeStamp = /5263DA92;
+Reference = H3;
+ValeurCmp = HOLE;
+IdModule  = Mechanical_Slotted_Hole;
+EndCmp
+
+BeginCmp
+TimeStamp = /5263DA98;
+Reference = H4;
+ValeurCmp = HOLE;
+IdModule  = Mechanical_Slotted_Hole;
+EndCmp
+
+BeginCmp
+TimeStamp = /5263DAA4;
+Reference = H5;
+ValeurCmp = HOLE;
+IdModule  = Mechanical_Slotted_Hole;
+EndCmp
+
+BeginCmp
 TimeStamp = /4E9998BD;
 Reference = IC1;
 ValeurCmp = ATMEGA32U4;
@@ -263,91 +298,308 @@ BeginCmp
 TimeStamp = /4F08252F;
 Reference = J1;
 ValeurCmp = MINI;
-IdModule  = 67503;
+IdModule  = USB_MINI-B_MOLEX_67503-1020;
+EndCmp
+
+BeginCmp
+TimeStamp = /526023FB;
+Reference = LOGO1;
+ValeurCmp = Geekhack;
+IdModule  = LOGO;
+EndCmp
+
+BeginCmp
+TimeStamp = /5260133C;
+Reference = M1;
+ValeurCmp = HOLE;
+IdModule  = Pad_Drl;
+EndCmp
+
+BeginCmp
+TimeStamp = /5260154B;
+Reference = M2;
+ValeurCmp = HOLE;
+IdModule  = Pad_Drl;
+EndCmp
+
+BeginCmp
+TimeStamp = /52601551;
+Reference = M3;
+ValeurCmp = HOLE;
+IdModule  = Pad_Drl;
+EndCmp
+
+BeginCmp
+TimeStamp = /52601557;
+Reference = M4;
+ValeurCmp = HOLE;
+IdModule  = Pad_Drl;
+EndCmp
+
+BeginCmp
+TimeStamp = /5260155D;
+Reference = M5;
+ValeurCmp = HOLE;
+IdModule  = Pad_Drl;
+EndCmp
+
+BeginCmp
+TimeStamp = /52601563;
+Reference = M6;
+ValeurCmp = HOLE;
+IdModule  = Pad_Drl;
+EndCmp
+
+BeginCmp
+TimeStamp = /52601AE1;
+Reference = M7;
+ValeurCmp = HOLE;
+IdModule  = Pad_Drl;
+EndCmp
+
+BeginCmp
+TimeStamp = /52601AE7;
+Reference = M8;
+ValeurCmp = HOLE;
+IdModule  = Pad_Drl;
+EndCmp
+
+BeginCmp
+TimeStamp = /52601AED;
+Reference = M9;
+ValeurCmp = HOLE;
+IdModule  = Pad_Drl;
+EndCmp
+
+BeginCmp
+TimeStamp = /52601AF3;
+Reference = M10;
+ValeurCmp = HOLE;
+IdModule  = Pad_Drl;
+EndCmp
+
+BeginCmp
+TimeStamp = /52601B9E;
+Reference = M11;
+ValeurCmp = HOLE;
+IdModule  = Pad_Drl;
+EndCmp
+
+BeginCmp
+TimeStamp = /52601BA4;
+Reference = M12;
+ValeurCmp = HOLE;
+IdModule  = Pad_Drl;
+EndCmp
+
+BeginCmp
+TimeStamp = /52601BAA;
+Reference = M13;
+ValeurCmp = HOLE;
+IdModule  = Pad_Drl;
+EndCmp
+
+BeginCmp
+TimeStamp = /52601BB0;
+Reference = M14;
+ValeurCmp = HOLE;
+IdModule  = Pad_Drl;
+EndCmp
+
+BeginCmp
+TimeStamp = /52601BB6;
+Reference = M15;
+ValeurCmp = HOLE;
+IdModule  = Pad_Drl;
+EndCmp
+
+BeginCmp
+TimeStamp = /52601BBC;
+Reference = M16;
+ValeurCmp = HOLE;
+IdModule  = Pad_Drl;
+EndCmp
+
+BeginCmp
+TimeStamp = /52601BC2;
+Reference = M17;
+ValeurCmp = HOLE;
+IdModule  = Pad_Drl;
 EndCmp
 
 BeginCmp
 TimeStamp = /507D1E9B;
 Reference = P1;
 ValeurCmp = MISO;
-IdModule  = pad;
+IdModule  = Pad;
 EndCmp
 
 BeginCmp
 TimeStamp = /507D1F7C;
 Reference = P2;
 ValeurCmp = Vcc;
-IdModule  = pad;
+IdModule  = Pad;
 EndCmp
 
 BeginCmp
 TimeStamp = /507D1EE6;
 Reference = P3;
 ValeurCmp = SCK;
-IdModule  = pad;
+IdModule  = Pad;
 EndCmp
 
 BeginCmp
 TimeStamp = /507D1FC7;
 Reference = P4;
 ValeurCmp = MOSI;
-IdModule  = pad;
+IdModule  = Pad;
 EndCmp
 
 BeginCmp
 TimeStamp = /507D1F31;
 Reference = P5;
 ValeurCmp = RES;
-IdModule  = pad;
+IdModule  = Pad;
 EndCmp
 
 BeginCmp
 TimeStamp = /507D2012;
 Reference = P6;
 ValeurCmp = GND;
-IdModule  = pad;
+IdModule  = Pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /525F4C71;
+Reference = P7;
+ValeurCmp = ROW1;
+IdModule  = Pad_50mil;
+EndCmp
+
+BeginCmp
+TimeStamp = /525F4D07;
+Reference = P8;
+ValeurCmp = ROW2;
+IdModule  = Pad_50mil;
+EndCmp
+
+BeginCmp
+TimeStamp = /525F4D0D;
+Reference = P9;
+ValeurCmp = ROW3;
+IdModule  = Pad_50mil;
+EndCmp
+
+BeginCmp
+TimeStamp = /525F4D13;
+Reference = P10;
+ValeurCmp = ROW4;
+IdModule  = Pad_50mil;
+EndCmp
+
+BeginCmp
+TimeStamp = /525F4D19;
+Reference = P11;
+ValeurCmp = ROW5;
+IdModule  = Pad_50mil;
+EndCmp
+
+BeginCmp
+TimeStamp = /525F4D1F;
+Reference = P12;
+ValeurCmp = ROW6;
+IdModule  = Pad_50mil;
+EndCmp
+
+BeginCmp
+TimeStamp = /525F4D25;
+Reference = P13;
+ValeurCmp = COL1;
+IdModule  = Pad_50mil;
+EndCmp
+
+BeginCmp
+TimeStamp = /525F4E1E;
+Reference = P14;
+ValeurCmp = COL2;
+IdModule  = Pad_50mil;
+EndCmp
+
+BeginCmp
+TimeStamp = /525F4E24;
+Reference = P15;
+ValeurCmp = COL3;
+IdModule  = Pad_50mil;
+EndCmp
+
+BeginCmp
+TimeStamp = /525F4E2A;
+Reference = P16;
+ValeurCmp = COL4;
+IdModule  = Pad_50mil;
+EndCmp
+
+BeginCmp
+TimeStamp = /52600DDA;
+Reference = P17;
+ValeurCmp = FNLED;
+IdModule  = Pad_50mil;
+EndCmp
+
+BeginCmp
+TimeStamp = /52600974;
+Reference = P18;
+ValeurCmp = Vcc;
+IdModule  = Pad_50mil;
+EndCmp
+
+BeginCmp
+TimeStamp = /5260090B;
+Reference = P19;
+ValeurCmp = GND;
+IdModule  = Pad_50mil;
 EndCmp
 
 BeginCmp
 TimeStamp = /523207BC;
 Reference = P200;
 ValeurCmp = GND;
-IdModule  = Pad-Gnd;
+IdModule  = Pad_Gnd;
 EndCmp
 
 BeginCmp
 TimeStamp = /52320AF8;
 Reference = P201;
 ValeurCmp = GND;
-IdModule  = Pad-Gnd;
+IdModule  = Pad_Gnd;
 EndCmp
 
 BeginCmp
 TimeStamp = /52320AFE;
 Reference = P202;
 ValeurCmp = GND;
-IdModule  = Pad-Gnd;
+IdModule  = Pad_Gnd;
 EndCmp
 
 BeginCmp
 TimeStamp = /52320B04;
 Reference = P203;
 ValeurCmp = GND;
-IdModule  = Pad-Gnd;
+IdModule  = Pad_Gnd;
 EndCmp
 
 BeginCmp
 TimeStamp = /5238B3AB;
 Reference = P204;
 ValeurCmp = GND;
-IdModule  = Pad-Gnd;
+IdModule  = Pad_Gnd;
 EndCmp
 
 BeginCmp
 TimeStamp = /5238B3B1;
 Reference = P205;
 ValeurCmp = GND;
-IdModule  = Pad-Gnd;
+IdModule  = Pad_Gnd;
 EndCmp
 
 BeginCmp
