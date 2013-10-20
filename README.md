@@ -1,8 +1,7 @@
 4x6
-===
+=====
 4x6 Keypad
 Based on GH60 Rev B
-=====
 
 v0.9
 - cleaned up silkscreens and added notes
