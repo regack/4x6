@@ -1,4 +1,4 @@
-update=10/20/2013 2:04:01 PM
+update=10/20/2013 3:21:46 PM
 version=1
 last_client=pcbnew
 [general]
@@ -21,6 +21,8 @@ LibName6=device
 LibName7=conn
 LibName8=usb_ports
 LibName9=mechanical
+LibName10=mcp23018
+LibName11=component
 [cvpcb]
 version=1
 NetIExt=net
@@ -58,3 +60,4 @@ LibName9=lib/TQFP44
 LibName10=lib/CHERRY_PCB_200H
 LibName11=lib/usb_ports
 LibName12=lib/geekhack-sm
+LibName13=lib/SSOP24

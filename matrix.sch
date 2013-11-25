@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 10/20/2013 1:26:13 PM
+EESchema Schematic File Version 2  date 11/25/2013 6:24:37 PM
 LIBS:power
 LIBS:mx1a-simple
 LIBS:aker
@@ -8,6 +8,8 @@ LIBS:device
 LIBS:conn
 LIBS:usb_ports
 LIBS:mechanical
+LIBS:mcp23018
+LIBS:component
 LIBS:keyboard-cache
 EELAYER 27 0
 EELAYER END
@@ -15,8 +17,8 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 2 2
 Title "4x6 keypad"
-Date "20 oct 2013"
-Rev "0.9"
+Date "25 nov 2013"
+Rev "0.12"
 Comp "regack"
 Comment1 ""
 Comment2 ""
@@ -207,12 +209,12 @@ col4
 $Comp
 L LED DC1
 U 1 1 5042BB59
-P 12550 4000
-F 0 "DC1" H 12550 4100 50  0000 C CNN
-F 1 "LED" H 12550 3900 50  0000 C CNN
-F 2 "" H 12550 4000 60  0001 C CNN
-F 3 "" H 12550 4000 60  0001 C CNN
-	1    12550 4000
+P 7100 3900
+F 0 "DC1" H 7100 4000 50  0000 C CNN
+F 1 "LED" H 7100 3800 50  0000 C CNN
+F 2 "" H 7100 3900 60  0001 C CNN
+F 3 "" H 7100 3900 60  0001 C CNN
+	1    7100 3900
 	0    1    1    0   
 $EndComp
 Text HLabel 1800 2950 0    60   3State ~ 0
@@ -232,25 +234,25 @@ col3
 Text HLabel 5700 1400 1    60   3State ~ 0
 col4
 $Comp
-L VCC #PWR030
+L VCC #PWR034
 U 1 1 5043970C
-P 12550 3550
-F 0 "#PWR030" H 12550 3650 30  0001 C CNN
-F 1 "VCC" H 12550 3650 30  0000 C CNN
-F 2 "" H 12550 3550 60  0001 C CNN
-F 3 "" H 12550 3550 60  0001 C CNN
-	1    12550 3550
+P 7100 3450
+F 0 "#PWR034" H 7100 3550 30  0001 C CNN
+F 1 "VCC" H 7100 3550 30  0000 C CNN
+F 2 "" H 7100 3450 60  0001 C CNN
+F 3 "" H 7100 3450 60  0001 C CNN
+	1    7100 3450
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R4
 U 1 1 5043A0D0
-P 12550 4700
-F 0 "R4" V 12630 4700 50  0000 C CNN
-F 1 "300" V 12550 4700 50  0000 C CNN
-F 2 "" H 12550 4700 60  0001 C CNN
-F 3 "" H 12550 4700 60  0001 C CNN
-	1    12550 4700
+P 7100 4600
+F 0 "R4" V 7180 4600 50  0000 C CNN
+F 1 "kΩ" V 7100 4600 50  0000 C CNN
+F 2 "through-hole" H 7100 4600 60  0001 C CNN
+F 3 "Value depends on DC1 LED" H 7100 4600 60  0001 C CNN
+	1    7100 4600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -421,16 +423,16 @@ $EndComp
 $Comp
 L DIODE D17
 U 1 1 506B4394
-P 5450 5000
-F 0 "D17" H 5300 4950 40  0000 C CNN
-F 1 "1N4148" H 5350 5000 40  0000 C CNN
-F 2 "" H 5450 5000 60  0001 C CNN
-F 3 "" H 5450 5000 60  0001 C CNN
-F 4 "DC Components" H 3800 4400 60  0001 C CNN "Vendor"
-F 5 "CD4148WS(0805C)" H 3800 4400 60  0001 C CNN "Product"
-F 6 "TME" H 3800 4400 60  0001 C CNN "Supplier"
-F 7 "1N4148-0805" H 3800 4400 60  0001 C CNN "Supplier Symbol"
-	1    5450 5000
+P 5450 4900
+F 0 "D17" H 5300 4850 40  0000 C CNN
+F 1 "1N4148" H 5350 4900 40  0000 C CNN
+F 2 "" H 5450 4900 60  0001 C CNN
+F 3 "" H 5450 4900 60  0001 C CNN
+F 4 "DC Components" H 3800 4300 60  0001 C CNN "Vendor"
+F 5 "CD4148WS(0805C)" H 3800 4300 60  0001 C CNN "Product"
+F 6 "TME" H 3800 4300 60  0001 C CNN "Supplier"
+F 7 "1N4148-0805" H 3800 4300 60  0001 C CNN "Supplier Symbol"
+	1    5450 4900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -516,11 +518,11 @@ Connection ~ 3850 2950
 Connection ~ 3150 2950
 Connection ~ 3100 5150
 Wire Wire Line
-	12550 3550 12550 3800
+	7100 3450 7100 3700
 Wire Wire Line
-	12550 4200 12550 4450
+	7100 4100 7100 4350
 Wire Wire Line
-	12550 4950 12550 5350
+	7100 4850 7100 5250
 Wire Wire Line
 	3850 3350 3850 3450
 Wire Wire Line
@@ -581,8 +583,6 @@ Wire Wire Line
 	5250 3450 5700 3450
 Wire Wire Line
 	5650 3350 5650 3200
-Wire Wire Line
-	5650 4400 5650 4900
 Connection ~ 5250 2950
 Connection ~ 5250 4150
 Wire Wire Line
@@ -602,8 +602,6 @@ Connection ~ 5000 5650
 Connection ~ 5000 7150
 Connection ~ 4300 7150
 Connection ~ 5700 3450
-Wire Wire Line
-	5700 1400 5700 9700
 Wire Wire Line
 	5000 1400 5000 9700
 Wire Wire Line
@@ -627,7 +625,7 @@ Wire Wire Line
 Wire Wire Line
 	3600 1400 3600 10150
 Wire Wire Line
-	5650 6900 5650 7400
+	5650 6900 5650 7500
 Connection ~ 5250 6650
 Text Notes 5300 7400 0    60   ~ 0
 ENTER
@@ -887,7 +885,7 @@ Wire Wire Line
 	5250 4150 1800 4150
 Wire Wire Line
 	1800 2950 5250 2950
-Text HLabel 12550 5350 2    60   3State ~ 0
+Text HLabel 7100 5250 2    60   3State ~ 0
 numlock
 $Comp
 L MX1A S51
@@ -924,18 +922,11 @@ Wire Wire Line
 Wire Wire Line
 	3100 8400 3150 8400
 Connection ~ 3550 8650
-Connection ~ 5700 7500
 Connection ~ 5200 6650
 Wire Wire Line
 	5200 6650 5200 6950
 Wire Wire Line
 	5200 6950 5250 6950
-Wire Wire Line
-	5650 7400 5250 7400
-Wire Wire Line
-	5250 7400 5250 7500
-Wire Wire Line
-	5650 7500 5700 7500
 Connection ~ 5650 7200
 Wire Wire Line
 	1800 5150 5250 5150
@@ -957,18 +948,11 @@ Wire Wire Line
 Wire Wire Line
 	5200 4450 5200 4150
 Connection ~ 5200 4150
-Wire Wire Line
-	5650 4900 5250 4900
-Wire Wire Line
-	5250 4900 5250 5000
 Connection ~ 5650 4700
-Wire Wire Line
-	5650 5000 5700 5000
-Connection ~ 5700 5000
 Text Notes 5350 8850 0    60   ~ 0
 FN
 Wire Wire Line
-	5650 8350 5650 8850
+	5650 8350 5650 8950
 Connection ~ 5250 8100
 $Comp
 L MX1A S18
@@ -997,7 +981,7 @@ F 7 "1N4148-0805" H 4350 4800 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5650 5900 5650 5400
+	5650 5400 5650 6000
 $Comp
 L MX1A S24
 U 1 1 5238B9DC
@@ -1024,7 +1008,7 @@ F 7 "1N4148-0805" H 5450 7000 60  0001 C CNN "Supplier Symbol"
 	1    5450 9600
 	1    0    0    -1  
 $EndComp
-Text Notes 5350 4900 0    60   ~ 0
+Text Notes 5350 4250 0    60   ~ 0
 PLUS
 Text Notes 5350 5900 0    60   ~ 0
 FN
@@ -1059,14 +1043,7 @@ F 3 "" H 5450 5850 60  0001 C CNN
 	1    5450 5850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5250 5900 5650 5900
-Wire Wire Line
-	5250 5900 5250 6000
 Connection ~ 5650 5700
-Wire Wire Line
-	5650 6000 5700 6000
-Connection ~ 5700 6000
 Wire Wire Line
 	5250 5450 5200 5450
 Wire Wire Line
@@ -1088,16 +1065,37 @@ Wire Wire Line
 Wire Wire Line
 	5200 8400 5200 8100
 Connection ~ 5200 8100
-Wire Wire Line
-	5650 8850 5250 8850
-Wire Wire Line
-	5250 8850 5250 8950
 Connection ~ 5650 8650
-Wire Wire Line
-	5650 8950 5700 8950
-Connection ~ 5700 8950
 Wire Wire Line
 	4250 9450 4250 9600
 Connection ~ 5250 5150
 Connection ~ 3550 9750
+Wire Wire Line
+	5700 9700 5700 1400
+Wire Wire Line
+	5700 6100 5250 6100
+Wire Wire Line
+	5250 6100 5250 6000
+Connection ~ 5700 6100
+Wire Wire Line
+	5700 7600 5250 7600
+Wire Wire Line
+	5250 7600 5250 7500
+Connection ~ 5700 7600
+Wire Wire Line
+	5250 8950 5250 9050
+Wire Wire Line
+	5250 9050 5700 9050
+Connection ~ 5700 9050
+Wire Wire Line
+	5650 4400 5650 4900
+Wire Wire Line
+	5250 4900 5250 5000
+Wire Wire Line
+	5250 5000 5700 5000
+Connection ~ 5700 5000
+Text Notes 7300 4200 0    120  ~ 0
+Numlock LED
+Text Notes 7300 4600 0    120  ~ 0
+Resistor Value dependent upon LED value
 $EndSCHEMATC
