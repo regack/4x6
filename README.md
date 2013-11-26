@@ -16,36 +16,36 @@ Based on GH60 Rev B
 
 ###  MATRIX (ATMEGA)
 
-*ROW1 = PD0 / pin 18
-*ROW2 = PD1 / pin 19
-*ROW3 = PD2 / pin 20
-*ROW4 = PD3 / pin 21
-*ROW5 = PD4 / pin 25
-*ROW6 = PD5 / pin 22
+* ROW1 = PD0 / pin 18
+* ROW2 = PD1 / pin 19
+* ROW3 = PD2 / pin 20
+* ROW4 = PD3 / pin 21
+* ROW5 = PD4 / pin 25
+* ROW6 = PD5 / pin 22
 
-*COL1 = PF0 / pin 41
-*COL2 = PF1 / pin 40
-*COL3 = PE6 / pin 1
-*COL4 = PC7 / pin 32
+* COL1 = PF0 / pin 41
+* COL2 = PF1 / pin 40
+* COL3 = PE6 / pin 1
+* COL4 = PC7 / pin 32
 
 ### MATRIX (MCP23018)
-*ROW1 = GPB5 / pin 7
-*ROW2 = GPB4 / pin 6
-*ROW3 = GPB3 / pin 5
-*ROW4 = GPB2 / pin 4
-*ROW5 = GPB1 / pin 3
-*ROW6 = GPB0 / pin 2
+* ROW1 = GPB5 / pin 7
+* ROW2 = GPB4 / pin 6
+* ROW3 = GPB3 / pin 5
+* ROW4 = GPB2 / pin 4
+* ROW5 = GPB1 / pin 3
+* ROW6 = GPB0 / pin 2
 
-*COL1 = GPA0 / pin 17
-*COL2 = GPA1 / pin 18
-*COL3 = GPA2 / pin 19
-*COL4 = GPA3 / pin 20
+* COL1 = GPA0 / pin 17
+* COL2 = GPA1 / pin 18
+* COL3 = GPA2 / pin 19
+* COL4 = GPA3 / pin 20
 
 ### LEDs
-*NUMLOCK = PB2 / pin 10
-*DF1 = PF7 / pin 36
-*DF2 = PF6 / pin 37
-*DF3 = PF5 / pin 38
+* NUMLOCK = PB2 / pin 10
+* DF1 = PF7 / pin 36
+* DF2 = PF6 / pin 37
+* DF3 = PF5 / pin 38
 
 
 ## v0.9
