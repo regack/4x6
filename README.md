@@ -6,6 +6,10 @@
 Based on GH60 Rev B
 
 
+## 4x5 variant
+* removed references to bottom row
+
+
 ## v0.12.1
 * cleaned up silkscreen some more after receiving pcbwing prototypes...
 
