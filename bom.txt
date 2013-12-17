@@ -1,0 +1,23 @@
+Ref       Value           Quantity   Footprint       Part    
+------------------------------------------------------------------------------
+C1,C2     22pF            2          804             VJ0805A220GXXCW1BC      
+C3        1uF             1          805             VJ0805Y105JXQTW1BC      
+C4..C7    0.1uF           4          805             VJ0805Y104JXXAC 
+C8        1uF             1          805             VJ0805Y105JXQTW1BC      
+D1..D24   1N4148          24         SOD-123         1N4148  
+DC1..DF3  LED             4             
+IC1       ATMEGA32U4      1          TQFP44          ATmega32U4-AU   
+J1        USB MINI-B      1                          Molex 67503-1020      
+R1,R2     22 Ohm          2          805             CRCW080522R0JNTABC      
+R3        10 kOhm         1          805             CRCW080510K0FKEB        
+R4        kOhm            1          through-hole    Value depends on DC1 LED
+R5        10 kOhm         1          805             CRCW080510K0FKEB        
+R6,R7     2.2 kOhm        2          805             CRCW08052K20JNEA        
+RF1       kOhm            1          through-hole    Value depends on DF1 LED
+RF2       kOhm            1          through-hole    Value depends on DF2 LED
+RF3       kOhm            1          through-hole    Value depends on DF3 LED
+S0        ADTSMW69NVTR    1                          tact sw 6.30x6.20mm
+X1        7M-16.000MAAJ-T 1                          16MHz Crystal
+U1        MCP23018        1          SSOP24          MCP23018-E/SS   
+S1..S211  MX1A            30                         CHERRY MX       
+

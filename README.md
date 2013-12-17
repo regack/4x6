@@ -5,6 +5,10 @@
 
 Based on GH60 Rev B
 
+
+## v0.12.1
+* cleaned up silkscreen some more after receiving pcbwing prototypes...
+
 ## v0.10-0.12
 * cleaned up silkscreen to make everything visible
 * fixed not-connected pads (oops)
