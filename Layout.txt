@@ -1,0 +1,26 @@
+Row driven
+
+       Col1     Col2    Col3    Col4
+Row1    S1       S6      S11     S16
+Row2    S2       S7      S12     S17/S171
+Row3    S3       S8      S13     S18/S181
+Row4    S4       S9      S14     S19/S191
+Row5    S5/S51   S10     S15     S20/S201
+Row6    S21/S211 S22     S23     S24
+
+S1/NUMLOCK LED = PB2
+S6 LED = PF7
+S11 LED = PF6
+S16 LED = PF5
+
+ROW1 = PD0
+ROW2 = PD1
+ROW3 = PD2
+ROW4 = PD3
+ROW5 = PD4
+ROW6 = PD5
+
+COL1 = PF0
+COL2 = PF1
+COL3 = PE6
+COL4 = PC7

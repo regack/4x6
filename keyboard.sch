@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 12/16/2013 12:19:24 PM
+EESchema Schematic File Version 2  date 1/1/2014 1:42:54 PM
 LIBS:power
 LIBS:mx1a-simple
 LIBS:aker
@@ -18,7 +18,7 @@ encoding utf-8
 Sheet 1 2
 Title "4x6 keypad"
 Date "25 nov 2013"
-Rev "0.12.1"
+Rev "0.12.2"
 Comp "regack"
 Comment1 ""
 Comment2 ""

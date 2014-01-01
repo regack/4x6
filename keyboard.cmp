@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-02-13 BZR 3947)-testing date = 11/23/2013 2:01:26 PM
+Cmp-Mod V01 Created by CvPcb (2013-02-13 BZR 3947)-testing date = 1/1/2014 1:41:53 PM
 
 BeginCmp
 TimeStamp = /4E99B63E;
@@ -8,7 +8,7 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /4E99B644;
+TimeStamp = /5293DD1A;
 Reference = C2;
 ValeurCmp = 22pF;
 IdModule  = SM0805;
@@ -29,28 +29,28 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /4EB2CEC9;
+TimeStamp = /5293E556;
 Reference = C5;
 ValeurCmp = 0.1uF;
 IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /4EB2CECA;
+TimeStamp = /5293E5E9;
 Reference = C6;
 ValeurCmp = 0.1uF;
 IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /4EB2CECC;
+TimeStamp = /5293E67C;
 Reference = C7;
 ValeurCmp = 0.1uF;
 IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /5086A760;
+TimeStamp = /5293E0EB;
 Reference = C8;
 ValeurCmp = 1uF;
 IdModule  = SM0805;
@@ -297,7 +297,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4F08252F;
 Reference = J1;
-ValeurCmp = MINI-B;
+ValeurCmp = USB MINI-B;
 IdModule  = USB_MINI-B_MOLEX_67503-1020;
 EndCmp
 
@@ -624,14 +624,14 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /4ED6A3B8;
+TimeStamp = /5293ECE9;
 Reference = R2;
 ValeurCmp = 22Ω;
 IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /4ED6AF08;
+TimeStamp = /5293F8FB;
 Reference = R3;
 ValeurCmp = 10kΩ;
 IdModule  = SM0805;
@@ -652,7 +652,7 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /52644F3C;
+TimeStamp = /5293F3BE;
 Reference = R6;
 ValeurCmp = 2.2kΩ;
 IdModule  = SM0805;
@@ -666,14 +666,14 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /5231EDAD;
+TimeStamp = /5293FE79;
 Reference = RF1;
 ValeurCmp = kΩ;
 IdModule  = R3;
 EndCmp
 
 BeginCmp
-TimeStamp = /52389278;
+TimeStamp = /5293FD34;
 Reference = RF2;
 ValeurCmp = kΩ;
 IdModule  = R3;
