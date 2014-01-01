@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-02-13 BZR 3947)-testing date = 11/23/2013 2:01:26 PM
+Cmp-Mod V01 Created by CvPcb (2013-02-13 BZR 3947)-testing date = 1/1/2014 1:39:51 PM
 
 BeginCmp
 TimeStamp = /4E99B63E;
@@ -8,7 +8,7 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /4E99B644;
+TimeStamp = /5293DD1A;
 Reference = C2;
 ValeurCmp = 22pF;
 IdModule  = SM0805;
@@ -29,28 +29,28 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /4EB2CEC9;
+TimeStamp = /5293E556;
 Reference = C5;
 ValeurCmp = 0.1uF;
 IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /4EB2CECA;
+TimeStamp = /5293E5E9;
 Reference = C6;
 ValeurCmp = 0.1uF;
 IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /4EB2CECC;
+TimeStamp = /5293E67C;
 Reference = C7;
 ValeurCmp = 0.1uF;
 IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /5086A760;
+TimeStamp = /5293E0EB;
 Reference = C8;
 ValeurCmp = 1uF;
 IdModule  = SM0805;
@@ -197,34 +197,6 @@ IdModule  = SOD-123;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F60E920/5237642A;
-Reference = D21;
-ValeurCmp = 1N4148;
-IdModule  = SOD-123;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F60E920/5237644D;
-Reference = D22;
-ValeurCmp = 1N4148;
-IdModule  = SOD-123;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F60E920/52376416;
-Reference = D23;
-ValeurCmp = 1N4148;
-IdModule  = SOD-123;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F60E920/5238B9E6;
-Reference = D24;
-ValeurCmp = 1N4148;
-IdModule  = SOD-123;
-EndCmp
-
-BeginCmp
 TimeStamp = /4F60E920/5042BB59;
 Reference = DC1;
 ValeurCmp = LED;
@@ -281,13 +253,6 @@ IdModule  = Mechanical_Hole;
 EndCmp
 
 BeginCmp
-TimeStamp = /5263DAA4;
-Reference = H5;
-ValeurCmp = HOLE;
-IdModule  = Mechanical_Hole;
-EndCmp
-
-BeginCmp
 TimeStamp = /4E9998BD;
 Reference = IC1;
 ValeurCmp = ATMEGA32U4;
@@ -297,7 +262,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4F08252F;
 Reference = J1;
-ValeurCmp = MINI-B;
+ValeurCmp = USB MINI-B;
 IdModule  = USB_MINI-B_MOLEX_67503-1020;
 EndCmp
 
@@ -306,125 +271,6 @@ TimeStamp = /526023FB;
 Reference = LOGO1;
 ValeurCmp = Geekhack;
 IdModule  = LOGO;
-EndCmp
-
-BeginCmp
-TimeStamp = /5260133C;
-Reference = M1;
-ValeurCmp = HOLE;
-IdModule  = Pad_Drl;
-EndCmp
-
-BeginCmp
-TimeStamp = /5260154B;
-Reference = M2;
-ValeurCmp = HOLE;
-IdModule  = Pad_Drl;
-EndCmp
-
-BeginCmp
-TimeStamp = /52601551;
-Reference = M3;
-ValeurCmp = HOLE;
-IdModule  = Pad_Drl;
-EndCmp
-
-BeginCmp
-TimeStamp = /52601557;
-Reference = M4;
-ValeurCmp = HOLE;
-IdModule  = Pad_Drl;
-EndCmp
-
-BeginCmp
-TimeStamp = /5260155D;
-Reference = M5;
-ValeurCmp = HOLE;
-IdModule  = Pad_Drl;
-EndCmp
-
-BeginCmp
-TimeStamp = /52601563;
-Reference = M6;
-ValeurCmp = HOLE;
-IdModule  = Pad_Drl;
-EndCmp
-
-BeginCmp
-TimeStamp = /52601AE1;
-Reference = M7;
-ValeurCmp = HOLE;
-IdModule  = Pad_Drl;
-EndCmp
-
-BeginCmp
-TimeStamp = /52601AE7;
-Reference = M8;
-ValeurCmp = HOLE;
-IdModule  = Pad_Drl;
-EndCmp
-
-BeginCmp
-TimeStamp = /52601AED;
-Reference = M9;
-ValeurCmp = HOLE;
-IdModule  = Pad_Drl;
-EndCmp
-
-BeginCmp
-TimeStamp = /52601AF3;
-Reference = M10;
-ValeurCmp = HOLE;
-IdModule  = Pad_Drl;
-EndCmp
-
-BeginCmp
-TimeStamp = /52601B9E;
-Reference = M11;
-ValeurCmp = HOLE;
-IdModule  = Pad_Drl;
-EndCmp
-
-BeginCmp
-TimeStamp = /52601BA4;
-Reference = M12;
-ValeurCmp = HOLE;
-IdModule  = Pad_Drl;
-EndCmp
-
-BeginCmp
-TimeStamp = /52601BAA;
-Reference = M13;
-ValeurCmp = HOLE;
-IdModule  = Pad_Drl;
-EndCmp
-
-BeginCmp
-TimeStamp = /52601BB0;
-Reference = M14;
-ValeurCmp = HOLE;
-IdModule  = Pad_Drl;
-EndCmp
-
-BeginCmp
-TimeStamp = /52601BB6;
-Reference = M15;
-ValeurCmp = HOLE;
-IdModule  = Pad_Drl;
-EndCmp
-
-BeginCmp
-TimeStamp = /52601BBC;
-Reference = M16;
-ValeurCmp = HOLE;
-IdModule  = Pad_Drl;
-EndCmp
-
-BeginCmp
-TimeStamp = /52601BC2;
-Reference = M17;
-ValeurCmp = HOLE;
-IdModule  = Pad_Drl;
 EndCmp
 
 BeginCmp
@@ -501,13 +347,6 @@ BeginCmp
 TimeStamp = /525F4D19;
 Reference = P11;
 ValeurCmp = ROW5;
-IdModule  = Pad_50mil;
-EndCmp
-
-BeginCmp
-TimeStamp = /525F4D1F;
-Reference = P12;
-ValeurCmp = ROW6;
 IdModule  = Pad_50mil;
 EndCmp
 
@@ -603,20 +442,6 @@ IdModule  = Pad_Gnd;
 EndCmp
 
 BeginCmp
-TimeStamp = /5238B3AB;
-Reference = P204;
-ValeurCmp = GND;
-IdModule  = Pad_Gnd;
-EndCmp
-
-BeginCmp
-TimeStamp = /5238B3B1;
-Reference = P205;
-ValeurCmp = GND;
-IdModule  = Pad_Gnd;
-EndCmp
-
-BeginCmp
 TimeStamp = /4ED6A3B0;
 Reference = R1;
 ValeurCmp = 22Ω;
@@ -624,14 +449,14 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /4ED6A3B8;
+TimeStamp = /5293ECE9;
 Reference = R2;
 ValeurCmp = 22Ω;
 IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /4ED6AF08;
+TimeStamp = /5293F8FB;
 Reference = R3;
 ValeurCmp = 10kΩ;
 IdModule  = SM0805;
@@ -652,7 +477,7 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /52644F3C;
+TimeStamp = /5293F3BE;
 Reference = R6;
 ValeurCmp = 2.2kΩ;
 IdModule  = SM0805;
@@ -666,14 +491,14 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /5231EDAD;
+TimeStamp = /5293FE79;
 Reference = RF1;
 ValeurCmp = kΩ;
 IdModule  = R3;
 EndCmp
 
 BeginCmp
-TimeStamp = /52389278;
+TimeStamp = /5293FD34;
 Reference = RF2;
 ValeurCmp = kΩ;
 IdModule  = R3;
@@ -834,34 +659,6 @@ IdModule  = CHERRY_PCB_100H_Plated;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F60E920/52376404;
-Reference = S21;
-ValeurCmp = MX1A;
-IdModule  = CHERRY_PCB_100H_Plated;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F60E920/52376443;
-Reference = S22;
-ValeurCmp = MX1A;
-IdModule  = CHERRY_PCB_100H_Plated;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F60E920/5237640A;
-Reference = S23;
-ValeurCmp = MX1A;
-IdModule  = CHERRY_PCB_100H_Plated;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F60E920/5238B9DC;
-Reference = S24;
-ValeurCmp = MX1A;
-IdModule  = CHERRY_PCB_100H_Plated;
-EndCmp
-
-BeginCmp
 TimeStamp = /4F60E920/5238AA2A;
 Reference = S51;
 ValeurCmp = MX1A;
@@ -885,20 +682,6 @@ EndCmp
 BeginCmp
 TimeStamp = /4F60E920/5238AC51;
 Reference = S191;
-ValeurCmp = MX1A;
-IdModule  = CHERRY_PCB_200H_Visible;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F60E920/5238C086;
-Reference = S201;
-ValeurCmp = MX1A;
-IdModule  = CHERRY_PCB_200H_Visible;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F60E920/5238BB97;
-Reference = S211;
 ValeurCmp = MX1A;
 IdModule  = CHERRY_PCB_200H_Visible;
 EndCmp
