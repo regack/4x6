@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 1/1/2014 1:42:54 PM
+EESchema Schematic File Version 2  date 1/1/2014 8:21:45 PM
 LIBS:power
 LIBS:mx1a-simple
 LIBS:aker
@@ -17,7 +17,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 2 2
 Title "4x6 keypad"
-Date "25 nov 2013"
+Date "2 jan 2014"
 Rev "0.12.2"
 Comp "regack"
 Comment1 ""
@@ -735,7 +735,7 @@ Wire Wire Line
 Connection ~ 5000 8600
 Connection ~ 4300 8600
 Wire Wire Line
-	3550 8350 3550 8850
+	3550 8350 3550 8950
 $Comp
 L MX1A S20
 U 1 1 523763FE
@@ -898,13 +898,6 @@ F 3 "" H 3350 8800 60  0001 C CNN
 	1    3350 8800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3550 8850 3150 8850
-Wire Wire Line
-	3150 8850 3150 8950
-Wire Wire Line
-	3550 8950 3600 8950
-Connection ~ 3600 8950
 Connection ~ 3100 8100
 $Comp
 L MX1A S191
@@ -1098,4 +1091,9 @@ Text Notes 7300 4200 0    120  ~ 0
 Numlock LED
 Text Notes 7300 4600 0    120  ~ 0
 Resistor Value dependent upon LED value
+Wire Wire Line
+	3150 8950 3150 9050
+Wire Wire Line
+	3150 9050 3600 9050
+Connection ~ 3600 9050
 $EndSCHEMATC
