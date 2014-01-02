@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 1/1/2014 1:44:05 PM
+EESchema Schematic File Version 2  date 1/1/2014 8:23:56 PM
 LIBS:power
 LIBS:mx1a-simple
 LIBS:aker
@@ -10,13 +10,14 @@ LIBS:usb_ports
 LIBS:mechanical
 LIBS:mcp23018
 LIBS:component
+LIBS:keyboard-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
 Title "4x5 keypad"
-Date "17 dec 2013"
+Date "2 jan 2014"
 Rev "0.12.2"
 Comp "regack"
 Comment1 ""
