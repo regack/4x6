@@ -1,9 +1,9 @@
 ghpad keypad firmware
 ======================
 
-## ghpad Resources
-- 
+You will need the TMK firmware to build this : https://github.com/tmk/tmk_keyboard
 
+Copy the entirety of the ghpad directory into the TMK structure under the /keyboard directory
 
 ## Build
 Move to this directory then just run `make` like:
